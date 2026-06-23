@@ -1,0 +1,1 @@
+"""Vitals stream module."""

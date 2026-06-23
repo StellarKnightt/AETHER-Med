@@ -1,0 +1,41 @@
+# SCHEDULER GUIDELINES FOR AETHER-MED
+
+## 1. Critical Cardiac Emergency
+- **Specialist Assignment Guidance**: Prioritize immediate assignment to an Interventional Cardiologist.
+- **Emergency Staffing Priorities**: Prioritize critical care nurse availability for transport and Cath Lab preparation.
+- **Workload Balancing**: Bypass standard queue; preempt non-urgent consults.
+
+## 2. Severe Allergy Conflict
+- **Specialist Assignment Guidance**: Assign an Immunologist/Allergist for follow-up, but primary emergency physician handles acute stabilization.
+- **Emergency Staffing Priorities**: Ensure rapid response team nurse is available.
+- **Workload Balancing**: High priority alert broadcast to pharmacy staff.
+
+## 3. ICU Candidate
+- **Specialist Assignment Guidance**: Assign an Intensivist or Critical Care Specialist immediately.
+- **Emergency Staffing Priorities**: Assign 1:1 or 1:2 nursing ratio based on acuity.
+- **Workload Balancing**: Reallocate standard ward nurses if ICU step-down requires temporary coverage.
+
+## 4. Respiratory Failure
+- **Specialist Assignment Guidance**: Prioritize Pulmonologist or Intensivist.
+- **Emergency Staffing Priorities**: Immediate dispatch of a Respiratory Therapist to the bedside.
+- **Workload Balancing**: Ensure RT workload allows for emergent intubation standby.
+
+## 5. Stroke Risk
+- **Specialist Assignment Guidance**: Code Stroke activation requires an on-call Neurologist.
+- **Emergency Staffing Priorities**: Stroke-certified nurse must accompany the patient to CT.
+- **Workload Balancing**: Clear CT scanner schedule immediately.
+
+## 6. Severe Asthma Attack
+- **Specialist Assignment Guidance**: Assign to Emergency Physician; consult Pulmonologist if refractory.
+- **Emergency Staffing Priorities**: Respiratory therapist required for continuous nebulizers.
+- **Workload Balancing**: Standard emergency department nursing ratios apply unless intubated.
+
+## 7. Oncology Patient
+- **Specialist Assignment Guidance**: Assign to admitting Oncologist. Consult Infectious Disease if febrile neutropenia is present.
+- **Emergency Staffing Priorities**: Chemotherapy-certified nurse required for specific treatments.
+- **Workload Balancing**: Ensure isolation protocols do not overwhelm nursing assignment.
+
+## 8. General Ward Patient
+- **Specialist Assignment Guidance**: Assign to Hospitalist or General Internal Medicine physician.
+- **Emergency Staffing Priorities**: Standard ward nursing ratios (e.g., 1:4 or 1:5).
+- **Workload Balancing**: Distribute admissions evenly among available hospitalists.

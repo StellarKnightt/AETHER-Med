@@ -1,0 +1,42 @@
+# PHARMA GUIDELINES FOR AETHER-MED
+
+## 1. Critical Cardiac Emergency
+- **Medication Safety Rules**: Rapid administration of Aspirin, Nitroglycerin (if BP allows), and Heparin.
+- **Interaction Guidance**: Avoid NSAIDs (other than Aspirin). Caution with beta-blockers if patient is in cardiogenic shock.
+- **Monitoring Recommendations**: Continuous ECG monitoring. Monitor blood pressure frequently during nitroglycerin administration.
+
+## 2. Severe Allergy Conflict (e.g., Penicillin Allergy)
+- **Allergy Conflict Examples**: Patient allergic to Penicillin.
+- **Medication Safety Rules**: Avoid all penicillin-based treatments (Amoxicillin, Piperacillin). Cross-reactivity risk with cephalosporins.
+- **Interaction Guidance**: Recommend alternatives such as Macrolides (Azithromycin) or Fluoroquinolones.
+- **Monitoring Recommendations**: Notify physician immediately if accidental exposure occurs. Monitor for anaphylaxis.
+
+## 3. ICU Candidate
+- **Medication Safety Rules**: High-risk medications (vasopressors, sedatives) require central line administration and double-checks.
+- **Interaction Guidance**: Propofol requires monitoring of lipid levels. Watch for propofol infusion syndrome.
+- **Monitoring Recommendations**: Continuous hemodynamic monitoring.
+
+## 4. Respiratory Failure
+- **Medication Safety Rules**: Cautious use of sedatives/opioids which can further depress respiratory drive unless patient is intubated.
+- **Interaction Guidance**: Avoid non-selective beta-blockers in concomitant reactive airway disease.
+- **Monitoring Recommendations**: Continuous capnography and pulse oximetry.
+
+## 5. Stroke Risk
+- **Medication Safety Rules**: Strict adherence to tPA inclusion/exclusion criteria. Do not administer anticoagulants/antiplatelets for 24 hours post-tPA.
+- **Interaction Guidance**: Ensure BP is < 185/110 before administering thrombolytics.
+- **Monitoring Recommendations**: Frequent neurological checks.
+
+## 6. Severe Asthma Attack
+- **Medication Safety Rules**: Systemic corticosteroids should be administered early.
+- **Interaction Guidance**: Avoid beta-blockers.
+- **Monitoring Recommendations**: Monitor potassium levels if continuous albuterol is used.
+
+## 7. Oncology Patient
+- **Medication Safety Rules**: Chemotherapy agents require specific handling protocols. Avoid live vaccines.
+- **Interaction Guidance**: High risk of drug interactions with targeted therapies. Check CYP450 interactions.
+- **Monitoring Recommendations**: Monitor complete blood counts and renal/hepatic function.
+
+## 8. General Ward Patient
+- **Medication Safety Rules**: Standard medication reconciliation on admission.
+- **Interaction Guidance**: Standard interaction checks for polypharmacy.
+- **Monitoring Recommendations**: Routine vital sign monitoring per ward protocol.

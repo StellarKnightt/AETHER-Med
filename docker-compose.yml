@@ -1,0 +1,92 @@
+# ============================================
+# AETHER-Med Docker Compose
+# Services: backend, frontend, postgres, chromadb
+# ============================================
+
+
+services:
+  # ── PostgreSQL Database ──
+  postgres:
+    image: postgres:16-alpine
+    container_name: aether-med-postgres
+    environment:
+      POSTGRES_DB: aether_med
+      POSTGRES_USER: aether
+      POSTGRES_PASSWORD: aether_secret
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aether -d aether_med"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - aether-network
+
+  # ── ChromaDB Vector Store ──
+  chromadb:
+    image: chromadb/chroma:0.5.23
+    container_name: aether-med-chromadb
+    ports:
+      - "8001:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+    networks:
+      - aether-network
+
+  # ── Backend (FastAPI) ──
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    container_name: aether-med-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://aether:aether_secret@postgres:5432/aether_med
+      - CHROMADB_HOST=chromadb
+      - CHROMADB_PORT=8000
+      - LOG_LEVEL=INFO
+      - APP_ENV=development
+    depends_on:
+      postgres:
+        condition: service_healthy
+      chromadb:
+        condition: service_started
+    volumes:
+      - ./backend:/app/backend
+      - huggingface_cache:/root/.cache/huggingface
+    networks:
+      - aether-network
+
+  # ── Frontend (React + Vite) ──
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    container_name: aether-med-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=
+      - VITE_WS_URL=
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    networks:
+      - aether-network
+
+volumes:
+  postgres_data:
+  huggingface_cache:
+  chroma_data:
+
+networks:
+  aether-network:
+    driver: bridge

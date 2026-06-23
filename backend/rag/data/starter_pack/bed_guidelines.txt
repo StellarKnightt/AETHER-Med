@@ -1,0 +1,33 @@
+# BED MANAGEMENT GUIDELINES FOR AETHER-MED
+
+## 1. Critical Cardiac Emergency
+- **Placement Recommendations**: Immediate allocation to Cardiac ICU (CCU) or General ICU if CCU is full.
+- **Monitoring Requirements**: Continuous telemetric and hemodynamic monitoring.
+
+## 2. Severe Allergy Conflict
+- **Placement Recommendations**: Step-down unit or Medical ICU depending on the severity of anaphylaxis.
+- **Monitoring Requirements**: Continuous observation for biphasic allergic reactions.
+
+## 3. ICU Candidate
+- **Placement Recommendations**: ICU preferred. If ICU is at capacity, divert to Step-down unit with 1:1 nursing.
+- **Monitoring Requirements**: Full intensive care monitoring capabilities required at the bed station.
+
+## 4. Respiratory Failure
+- **Placement Recommendations**: ICU preferred.
+- **Monitoring Requirements**: Oxygen monitoring required. Bed must have direct access to piped medical oxygen and ventilator hookups.
+
+## 5. Stroke Risk
+- **Placement Recommendations**: Neuro-ICU or specialized Stroke Unit.
+- **Monitoring Requirements**: Frequent neuro-checks, dysphagia screening before oral intake.
+
+## 6. Severe Asthma Attack
+- **Placement Recommendations**: Step-down unit or ICU if impending respiratory failure.
+- **Monitoring Requirements**: Continuous pulse oximetry, frequent peak flow measurements.
+
+## 7. Oncology Patient
+- **Placement Recommendations**: Dedicated Oncology Ward.
+- **Monitoring Requirements**: Positive pressure room (Reverse Isolation) if the patient is severely neutropenic.
+
+## 8. General Ward Patient
+- **Placement Recommendations**: Standard Medical/Surgical Ward.
+- **Monitoring Requirements**: Routine vitals monitoring (e.g., Q4H or Q8H).

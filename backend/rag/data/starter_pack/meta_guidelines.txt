@@ -1,0 +1,13 @@
+# META-AGENT OVERSIGHT GUIDELINES FOR AETHER-MED
+
+## Workflow Failures
+- **Agent Degradation Scenarios**: If the Triage Agent fails to return a response within 2000ms, fall back to a deterministic rules-based triage classifier.
+- **Recovery Strategies**: Initiate a targeted restart of the degraded agent container. Reroute requests to a secondary model endpoint if the primary LLM API is unresponsive.
+
+## Escalation Recommendations
+- **Deadlock Resolution**: If the Pharma Agent and Scheduler Agent are stuck in an infinite dependency loop (e.g., waiting for allergy clearance from an unavailable specialist), Meta-Agent must break the loop and route to a human physician.
+- **System-wide Events**: In the event of a mass casualty incident (Batch MAS Workflow surge), auto-scale the worker nodes and disable non-essential background summarization tasks to preserve compute resources.
+
+## Performance Optimization
+- **Context Window Management**: If patient history exceeds context limits, Meta-Agent should dynamically truncate historical, non-relevant clinical notes before passing to the next node.
+- **Load Balancing**: Distribute inference load across available LLM providers based on current latency metrics.

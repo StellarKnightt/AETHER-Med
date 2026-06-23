@@ -1,0 +1,1 @@
+"""Conflict Engine module."""

@@ -1,0 +1,76 @@
+# ============================================
+# AETHER-Med .gitignore
+# Python + Node.js + Docker Monorepo
+# ============================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venvi/
+ENV/
+env/
+
+# ---------- Environment ----------
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ---------- Node.js ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---------- Frontend Build ----------
+frontend/dist/
+frontend/build/
+
+# ---------- Logs ----------
+*.log
+backend/logs/*.log
+
+# ---------- Database ----------
+*.db
+*.sqlite3
+
+# ---------- Docker ----------
+docker-compose.override.yml
+
+# ---------- Testing ----------
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# ---------- ChromaDB ----------
+chroma_data/
+backend/rag/knowledge_base/*.pdf
+backend/rag/knowledge_base/*.txt
+!backend/rag/knowledge_base/.gitkeep
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+Desktop.ini

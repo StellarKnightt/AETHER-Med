@@ -1,0 +1,1 @@
+"""Bed simulator module."""

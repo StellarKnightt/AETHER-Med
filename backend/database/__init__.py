@@ -1,0 +1,1 @@
+"""AETHER-Med database package."""

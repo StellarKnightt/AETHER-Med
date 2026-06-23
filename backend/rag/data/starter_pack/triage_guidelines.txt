@@ -1,0 +1,49 @@
+# TRIAGE GUIDELINES FOR AETHER-MED
+
+## 1. Critical Cardiac Emergency
+- **Symptom Interpretation**: Chest pain, radiating arm pain, shortness of breath, low blood pressure, low oxygen saturation.
+- **Severity Indicators**: STEMI, elevated troponin, diaphoresis, impending sense of doom.
+- **Escalation Guidance**: Requires immediate cardiology intervention. Do not delay in ER.
+- **Triage Recommendations**: Critical Priority (Priority 1). Immediate physician review required. ICU consideration.
+
+## 2. Severe Allergy Conflict
+- **Symptom Interpretation**: Anaphylaxis, swelling of lips/tongue, hives, rapid pulse.
+- **Severity Indicators**: Airway compromise, hypotensive shock.
+- **Escalation Guidance**: Immediate epinephrine administration.
+- **Triage Recommendations**: High to Critical Priority. Continuous monitoring required.
+
+## 3. ICU Candidate
+- **Symptom Interpretation**: Multi-organ failure, severe trauma, post-cardiac arrest.
+- **Severity Indicators**: Requires mechanical ventilation, vasopressors, or continuous renal replacement.
+- **Escalation Guidance**: Immediate escalation to intensivist.
+- **Triage Recommendations**: Critical Priority (Priority 1). Requires immediate intensive care unit placement.
+
+## 4. Respiratory Failure
+- **Symptom Interpretation**: Severe dyspnea, cyanosis, accessory muscle use, altered mental status.
+- **Severity Indicators**: O2 saturation < 88% on room air, hypercapnia on ABG.
+- **Escalation Guidance**: Prepare for possible intubation. Page respiratory therapy immediately.
+- **Triage Recommendations**: Critical Priority (Priority 1). Continuous pulse oximetry monitoring required.
+
+## 5. Stroke Risk
+- **Symptom Interpretation**: Unilateral weakness, facial droop, slurred speech, sudden loss of vision.
+- **Severity Indicators**: Time since symptom onset (last known well), NIHSS score > 4.
+- **Escalation Guidance**: Activate stroke code. Immediate non-contrast head CT required.
+- **Triage Recommendations**: Critical Priority (Priority 1). Time-sensitive neurological emergency.
+
+## 6. Severe Asthma Attack
+- **Symptom Interpretation**: Audible wheezing, inability to speak in full sentences, chest tightness.
+- **Severity Indicators**: Silent chest, paradoxical breathing, bradycardia.
+- **Escalation Guidance**: Continuous albuterol nebulization. Consider magnesium sulfate or heliox.
+- **Triage Recommendations**: High Priority. Requires rapid pharmacological intervention.
+
+## 7. Oncology Patient
+- **Symptom Interpretation**: Febrile neutropenia, sudden severe pain, spinal cord compression symptoms.
+- **Severity Indicators**: Fever > 100.4 F in neutropenic patient, hypercalcemia.
+- **Escalation Guidance**: Immediate broad-spectrum antibiotics for fever. Page oncology consult.
+- **Triage Recommendations**: High Priority due to immunosuppression. Reverse isolation recommended.
+
+## 8. General Ward Patient
+- **Symptom Interpretation**: Stable vitals, manageable pain, minor infections, or post-operative recovery (uncomplicated).
+- **Severity Indicators**: None. Vitals within normal limits.
+- **Escalation Guidance**: Standard ward protocols. Routine rounding.
+- **Triage Recommendations**: Low to Medium Priority. Safe for general admission.

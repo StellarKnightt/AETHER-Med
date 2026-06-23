@@ -1,0 +1,14 @@
+# SENTINEL SECURITY GUIDELINES FOR AETHER-MED
+
+## Privacy Violations
+- **Data Exposure Events**: Any unauthorized transmission of PHI outside the hospital network must trigger an immediate localized network quarantine.
+- **Unauthorized Access**: If an agent or user accesses records outside their assigned clinical scope, flag as a Level 1 Breach.
+- **Compliance Recommendations**: Ensure all inter-agent communications utilize end-to-end encryption. Halt workflow if payload contains unmasked PII during external API calls.
+
+## Agent Behavior Anomalies
+- **Hallucinations**: If a Pharma Agent recommends a toxic dose exceeding standard limits, Sentinel must intercept and halt the prescription payload.
+- **Privilege Escalation**: Detect if a Scheduler Agent attempts to modify physician credentials or access levels.
+
+## System Health
+- **Resource Exhaustion**: If any agent exceeds memory allocation, Sentinel should throttle requests and notify the Meta-Agent.
+- **Audit Logging**: All intercepted anomalies must be logged to the immutable audit trail for compliance review.

@@ -1,0 +1,39 @@
+# ============================================
+# AETHER-Med Docker Ignore
+# ============================================
+
+# Local Python
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.ipynb_checkpoints/
+
+# Local Node
+**/node_modules/
+**/dist/
+**/.npm/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+docker/
+docker-compose.yml
+.dockerignore
+
+# Documentation
+docs/
+*.md
+
+# Large data/models
+**/chroma_data/
+**/postgres_data/
+**/logs/
+**/*.log
+**/*.zip
+**/*.tar.gz
