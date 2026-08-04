@@ -151,22 +151,6 @@ alembic upgrade head
 
 ---
 
-## 🔌 API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/` | API information |
-| `GET` | `/api/v1/health` | Health check |
-| `GET` | `/api/v1/patients/` | List patients |
-| `GET` | `/api/v1/staff/doctors` | List doctors |
-| `GET` | `/api/v1/cleaners` | List cleaning staff |
-| `GET` | `/api/v1/beds` | List beds and statuses |
-| `GET` | `/api/v1/sentinel-agent/status` | Sentinel Agent status |
-| `GET` | `/api/v1/meta-agent/status` | Meta-Agent status |
-| `WS` | `/ws` | WebSocket connection for live events |
-
----
-
 ## 🧪 Tech Stack
 
 | Layer | Technology |
